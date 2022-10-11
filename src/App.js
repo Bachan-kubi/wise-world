@@ -19,12 +19,18 @@ function App() {
         },
         {
           path: 'statistics',
+          loader: ()=>{
+
+          },
           element: <Statistics />
         },
         {
           path: 'blog',
           element: <Blog />
         },
+        {
+          
+        }, 
         {
           path: '/quizes/:id',
           loader: ({params})=>{

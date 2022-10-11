@@ -8,11 +8,11 @@ const Quizes = () => {
     return (
         <div>
             <h3>quisex</h3>
-            <div>
+            {/* <div>
                 {
-                    quizes.map(quiz=><Quiz />)
+                    quizes.data.map(quiz=><Quiz key={quiz.id} quiz={quiz} />)
                 }
-            </div>
+            </div> */}
         </div>
     );
 };
