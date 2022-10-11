@@ -1,12 +1,12 @@
 import React from 'react';
+import './Questions.css'
 
 const Questions = ({quiz}) => {
-    console.log(quiz);
-    const {question}=quiz;
-
+        const {question}=quiz;
+        console.log(question);
     return (
-        <div>
-            {question}
+        <div className='q'>
+            <h3>Quizes: {question}</h3>
         </div>
     );
 };
