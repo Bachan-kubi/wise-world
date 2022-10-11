@@ -1,0 +1,20 @@
+.books{
+    border: 2px solid orangered;
+    border-radius: 10px;
+    width: 500px;
+    margin: 20px auto;
+}
+.btn-practice{
+    width: 150px;
+    height: 35px;
+    background-color: orangered;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 20px;
+}
+.books-flex{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
