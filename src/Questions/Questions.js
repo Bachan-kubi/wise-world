@@ -6,7 +6,7 @@ const Questions = ({quiz}) => {
         console.log(question);
     return (
         <div className='q'>
-            <h3>Quizes: {question}</h3>
+            <h4>Quizes: {question}</h4>
         </div>
     );
 };
