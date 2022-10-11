@@ -1,13 +1,18 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
+import Quiz from '../Quiz/Quiz';
 
 const Quizes = () => {
     const quizes = useLoaderData();
-    const {total} = quizes;
+    console.log(quizes.data);
     return (
         <div>
             <h3>quisex</h3>
-            <p>{total}</p>
+            <div>
+                {
+                    quizes.map(quiz=><Quiz />)
+                }
+            </div>
         </div>
     );
 };
