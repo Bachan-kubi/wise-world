@@ -8,13 +8,10 @@ const Quizes = () => {
   const quizData = useLoaderData();
   // console.log("one", quizData)
   const quizes = quizData.data;
-  const { name } = quizes;
-  const { questions } = quizes;
-  // console.log("o", quizes)
+  const { name, questions} = quizes;
 
   return (
     <div>
-      <h3>quisex</h3>
       <Quiz name={name} />
       <div className="quizes">
         {questions.map((quiz) => (
