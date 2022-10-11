@@ -1,11 +1,12 @@
 import React from 'react';
 
-const Quiz = ({quiz}) => {
-    console.log(quiz);
-    const {questions}= quiz;
+
+const Quiz = ({name}) => {
+    // console.log(quiz)
+    
     return (
         <div>
-            <p>{questions}</p>
+            <h3>Quiz of {name}</h3>
         </div>
     );
 };

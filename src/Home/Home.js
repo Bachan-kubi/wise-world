@@ -7,7 +7,7 @@ const Home = () => {
   const allBooks = useLoaderData();
   return (
     <div>
-      <h3>this is home - need details.</h3>
+      <h3>this is home - need details. import another component here.</h3>
       <div className="home">
         {allBooks.data.map((book) => (
           <Books key={book.id} book={book} />
