@@ -19,9 +19,7 @@ function App() {
         },
         {
           path: 'statistics',
-          loader: ()=>{
-
-          },
+          loader: ()=>fetch('https://openapi.programming-hero.com/api/quiz'),
           element: <Statistics />
         },
         {
