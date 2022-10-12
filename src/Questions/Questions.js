@@ -18,7 +18,7 @@ const [isActive, setIsActive] = useState(true);
     <div className="q">
       {/* <ToastContainer /> */}
       <div className="qa">
-        <h4>Quizes: {question.slice(3, -4)}</h4>
+        <h3>Quizes: {question.slice(3, -4)}</h3>
         <FontAwesomeIcon onClick={handleAnsView} className={isActive ? '' : 'hidden'} icon={faEye} />
         <FontAwesomeIcon onClick={handleAnsView} className={isActive ? 'hidden' : ''} icon={faEyeSlash} />
       </div>
