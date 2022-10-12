@@ -7,6 +7,9 @@
 .books a{
     text-decoration: none;
 }
+.books a:hover{
+    color: olivedrab;
+}
 .btn-practice{
     width: 180px;
     height: 35px;
