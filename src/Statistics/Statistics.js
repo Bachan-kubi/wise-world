@@ -8,7 +8,7 @@ const Statistics = () => {
     return (
         <div className='chart'>
             <div>
-                <ResponsiveContainer width='92%' height={400}>
+                <ResponsiveContainer width='100%' height={400}>
                     <BarChart data={QuizData.data}>
                         <CartesianGrid strokeDasharray="3 3" />
                         <XAxis dataKey="name" />
