@@ -2,7 +2,7 @@
 Quize-Bank
 
 # Live Link
-
+ https://quize-banks.netlify.app/
 
 # Getting Started
 This project is designed to get quizes and answers from its users to test their skills in front end of web developemnt. 

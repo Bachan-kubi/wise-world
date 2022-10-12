@@ -5,8 +5,9 @@ import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 import "./Questions.css";
 
 const Questions = ({ quiz }) => {
-  const { question, options} = quiz;
+  const { question, options, correctAnswer} = quiz;
 //   console.log(question);
+
   return (
     <div className="q">
       <div>
@@ -14,7 +15,7 @@ const Questions = ({ quiz }) => {
       </div>
       <div>
         {
-            options.map(option=><Options key={option.id} option={option} />)
+            options.map(option=><Options key={option.id} option={option} correctAnswer={correctAnswer}/>)
         }
       </div>
     </div>
