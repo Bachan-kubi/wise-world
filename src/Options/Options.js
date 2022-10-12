@@ -13,7 +13,7 @@ const Options = ({ option, correctAnswer }) => {
   // }
   const ansHandler = () => {
     if (option === correctAnswer) {
-      toast("Welcone! Answer is correct!");
+      toast("Weldone! Answer is correct!");
     } else {
       toast("Sorry! Wrong Answer!");
     }
