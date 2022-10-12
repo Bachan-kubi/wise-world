@@ -15,6 +15,10 @@
     /* background-color: rgb(240, 217, 176); */
     margin-top: 20px;
 }
+.home-container h2{
+    font-size: 25px;
+    font-weight: bold;
+}
 .home-container img{
     width: 500px;
     height: 250px;
