@@ -3,8 +3,8 @@ import Options from "../Options/Options";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEye, faEyeSlash } from '@fortawesome/free-solid-svg-icons'
 import "./Questions.css";
-import { Alert} from 'flowbite-react';
-import { ToastContainer } from "react-toastify";
+// import { Alert} from 'flowbite-react';
+// import { ToastContainer } from "react-toastify";
 
 const Questions = ({ quiz }) => {
   const { question, options, correctAnswer} = quiz;
