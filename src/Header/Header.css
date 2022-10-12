@@ -14,3 +14,11 @@
     color: orangered;
     font-weight: bold;
 }
+
+@media only screen and (max-width: 576px){
+    .flex{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
